@@ -36,7 +36,10 @@ const awsmobile = {
     "aws_appsync_authenticationType": "AMAZON_COGNITO_USER_POOLS",
     "aws_appsync_apiKey": "da2-fm7ia4reangflneo2qttly5kca",
     "aws_user_files_s3_bucket": "clout-shopify184246-dev",
-    "aws_user_files_s3_bucket_region": "us-east-1"
+    "aws_user_files_s3_bucket_region": "us-east-1",
+    "aws_content_delivery_bucket": "cloutfrontend-20220117205322-hostingbucket-dev",
+    "aws_content_delivery_bucket_region": "us-east-1",
+    "aws_content_delivery_url": "https://dx20xgf2yec9w.cloudfront.net"
 };
 
 
