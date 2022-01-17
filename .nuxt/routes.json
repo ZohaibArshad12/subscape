@@ -2,57 +2,57 @@
   {
     "name": "login",
     "path": "/login",
-    "component": "C:\\\\Development\\\\z2a\\\\suscape\\\\Subscape-SAAS-main\\\\frontend\\\\pages\\\\login.vue",
+    "component": "C:\\\\Users\\\\pen\\\\Documents\\\\repos\\\\subscape\\\\pages\\\\login.vue",
     "chunkName": "pages/login",
-    "_name": "_941033d2"
+    "_name": "_eb72f42c"
   },
   {
     "name": "newlogin",
     "path": "/newlogin",
-    "component": "C:\\\\Development\\\\z2a\\\\suscape\\\\Subscape-SAAS-main\\\\frontend\\\\pages\\\\newlogin.vue",
+    "component": "C:\\\\Users\\\\pen\\\\Documents\\\\repos\\\\subscape\\\\pages\\\\newlogin.vue",
     "chunkName": "pages/newlogin",
-    "_name": "_3394ff8b"
+    "_name": "_c5a42a50"
   },
   {
     "name": "register",
     "path": "/register",
-    "component": "C:\\\\Development\\\\z2a\\\\suscape\\\\Subscape-SAAS-main\\\\frontend\\\\pages\\\\register.vue",
+    "component": "C:\\\\Users\\\\pen\\\\Documents\\\\repos\\\\subscape\\\\pages\\\\register.vue",
     "chunkName": "pages/register",
-    "_name": "_ccdc3136"
+    "_name": "_032ad2b2"
   },
   {
     "name": "settings",
     "path": "/settings",
-    "component": "C:\\\\Development\\\\z2a\\\\suscape\\\\Subscape-SAAS-main\\\\frontend\\\\pages\\\\settings.vue",
+    "component": "C:\\\\Users\\\\pen\\\\Documents\\\\repos\\\\subscape\\\\pages\\\\settings.vue",
     "chunkName": "pages/settings",
-    "_name": "_1f35b4e5"
+    "_name": "_ee62bf9c"
   },
   {
     "name": "subscribe",
     "path": "/subscribe",
-    "component": "C:\\\\Development\\\\z2a\\\\suscape\\\\Subscape-SAAS-main\\\\frontend\\\\pages\\\\subscribe.vue",
+    "component": "C:\\\\Users\\\\pen\\\\Documents\\\\repos\\\\subscape\\\\pages\\\\subscribe.vue",
     "chunkName": "pages/subscribe",
-    "_name": "_4bd7c078"
+    "_name": "_155c3ecb"
   },
   {
     "name": "test",
     "path": "/test",
-    "component": "C:\\\\Development\\\\z2a\\\\suscape\\\\Subscape-SAAS-main\\\\frontend\\\\pages\\\\test.vue",
+    "component": "C:\\\\Users\\\\pen\\\\Documents\\\\repos\\\\subscape\\\\pages\\\\test.vue",
     "chunkName": "pages/test",
-    "_name": "_87005a58"
+    "_name": "_70c46ca1"
   },
   {
     "name": "player-name",
     "path": "/player/:name?",
-    "component": "C:\\\\Development\\\\z2a\\\\suscape\\\\Subscape-SAAS-main\\\\frontend\\\\pages\\\\player\\\\_name.vue",
+    "component": "C:\\\\Users\\\\pen\\\\Documents\\\\repos\\\\subscape\\\\pages\\\\player\\\\_name.vue",
     "chunkName": "pages/player/_name",
-    "_name": "_408ca2d2"
+    "_name": "_3b60cb6a"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Development\\\\z2a\\\\suscape\\\\Subscape-SAAS-main\\\\frontend\\\\pages\\\\index.vue",
+    "component": "C:\\\\Users\\\\pen\\\\Documents\\\\repos\\\\subscape\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_275f7a00"
+    "_name": "_7ec23a5a"
   }
 ]
