@@ -1,17 +1,17 @@
 {
+  "providers": [
+    "awscloudformation"
+  ],
   "projectName": "cloutfrontend",
   "version": "3.1",
   "frontend": "javascript",
   "javascript": {
     "framework": "vue",
     "config": {
-      "SourceDir": "/",
+      "SourceDir": "src",
       "DistributionDir": "dist",
       "BuildCommand": "npm.cmd run-script build",
       "StartCommand": "npm.cmd run-script serve"
     }
-  },
-  "providers": [
-    "awscloudformation"
-  ]
+  }
 }
