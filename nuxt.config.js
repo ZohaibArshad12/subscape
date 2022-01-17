@@ -1,5 +1,5 @@
 export default {
-  buildDir: "nuxt-dist",
+  buildDir: "dist",
   head: {
     link: [
       {

@@ -9,8 +9,7 @@ amplify/backend/amplify-meta.json
 amplify/backend/.temp
 build/
 dist/
-nuxt-dist/
-nuxt-dist/*
+dist/*
 node_modules/
 awsconfiguration.json
 amplifyconfiguration.json
