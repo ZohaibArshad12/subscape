@@ -30,7 +30,6 @@ export const actions = {
       username: email,
       password,
       attributes: {
-        "custom:creator_id": creator_id,
         name: name,
       },
     });

@@ -20,6 +20,7 @@ class AuthService {
 
   get email() {
     if (!this.user) return;
+    console.log(this.user);
     return this.user.attributes.email;
   }
 
