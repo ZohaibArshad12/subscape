@@ -4,14 +4,14 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _941033d2 = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages/login" */))
-const _3394ff8b = () => interopDefault(import('..\\pages\\newlogin.vue' /* webpackChunkName: "pages/newlogin" */))
-const _ccdc3136 = () => interopDefault(import('..\\pages\\register.vue' /* webpackChunkName: "pages/register" */))
-const _1f35b4e5 = () => interopDefault(import('..\\pages\\settings.vue' /* webpackChunkName: "pages/settings" */))
-const _4bd7c078 = () => interopDefault(import('..\\pages\\subscribe.vue' /* webpackChunkName: "pages/subscribe" */))
-const _87005a58 = () => interopDefault(import('..\\pages\\test.vue' /* webpackChunkName: "pages/test" */))
-const _408ca2d2 = () => interopDefault(import('..\\pages\\player\\_name.vue' /* webpackChunkName: "pages/player/_name" */))
-const _275f7a00 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _eb72f42c = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages/login" */))
+const _c5a42a50 = () => interopDefault(import('..\\pages\\newlogin.vue' /* webpackChunkName: "pages/newlogin" */))
+const _032ad2b2 = () => interopDefault(import('..\\pages\\register.vue' /* webpackChunkName: "pages/register" */))
+const _ee62bf9c = () => interopDefault(import('..\\pages\\settings.vue' /* webpackChunkName: "pages/settings" */))
+const _155c3ecb = () => interopDefault(import('..\\pages\\subscribe.vue' /* webpackChunkName: "pages/subscribe" */))
+const _70c46ca1 = () => interopDefault(import('..\\pages\\test.vue' /* webpackChunkName: "pages/test" */))
+const _3b60cb6a = () => interopDefault(import('..\\pages\\player\\_name.vue' /* webpackChunkName: "pages/player/_name" */))
+const _7ec23a5a = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -26,35 +26,35 @@ export const routerOptions = {
 
   routes: [{
     path: "/login",
-    component: _941033d2,
+    component: _eb72f42c,
     name: "login"
   }, {
     path: "/newlogin",
-    component: _3394ff8b,
+    component: _c5a42a50,
     name: "newlogin"
   }, {
     path: "/register",
-    component: _ccdc3136,
+    component: _032ad2b2,
     name: "register"
   }, {
     path: "/settings",
-    component: _1f35b4e5,
+    component: _ee62bf9c,
     name: "settings"
   }, {
     path: "/subscribe",
-    component: _4bd7c078,
+    component: _155c3ecb,
     name: "subscribe"
   }, {
     path: "/test",
-    component: _87005a58,
+    component: _70c46ca1,
     name: "test"
   }, {
     path: "/player/:name?",
-    component: _408ca2d2,
+    component: _3b60cb6a,
     name: "player-name"
   }, {
     path: "/",
-    component: _275f7a00,
+    component: _7ec23a5a,
     name: "index"
   }],
 
