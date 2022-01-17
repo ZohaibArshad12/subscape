@@ -1,5 +1,6 @@
 export default {
   buildDir: "dist",
+  target: "static",
   head: {
     link: [
       {
