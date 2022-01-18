@@ -188,7 +188,6 @@ export default {
       return months[d.getMonth()] + ". " + d.getDate() + ", " + d.getFullYear();
     },
     async addComment(post) {
-      console.log(this.currName);
       var comment = {
         body: this.commentArea,
         createdAt: this.current,
@@ -204,9 +203,7 @@ export default {
 
         for (let i = 0; i < this.posts.length; i++) {
           if (this.posts[i].id == post) {
-            console.log("Here, trying to add: " + JSON.stringify(comment));
             this.comment = false;
-            console.log(this.posts[i]);
             this.posts[i].comments.unshift(comment);
             this.posts = [...this.posts];
           }
@@ -216,10 +213,7 @@ export default {
       }
     },
     async like(post) {
-      console.log("Here are our posts:");
-      console.log(this.likedPosts);
       if (this.likedPosts.includes(post)) {
-        console.log("See it");
         var info = {
           postId: post,
           userId: this.currId,
@@ -237,8 +231,6 @@ export default {
         }
 
         this.likedPosts = this.likedPosts.filter((item) => item !== post);
-        console.log("Here are our posts after: ");
-        console.log(this.likedPosts);
       } else {
         var info = {
           postId: post,

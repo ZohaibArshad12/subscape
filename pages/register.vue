@@ -123,11 +123,10 @@ export default {
   methods: {
     async register() {
       try {
-        console.log(this.registerForm);
         if (this.$route.query.creator) {
           return console.log("Damn");
         }
-        this.registerForm.creator_id = this.$route.query.creator;
+        //this.registerForm.creator_id = this.$route.query.creator;
         await this.$store.dispatch("auth/register", this.registerForm);
         this.confirmForm.email = this.registerForm.email;
         this.step = this.steps.confirm;

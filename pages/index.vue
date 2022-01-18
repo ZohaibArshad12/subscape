@@ -27,8 +27,6 @@ export default {
   async fetch() {
     this.posts = await this.$store.dispatch("api/listPosts", this.$auth.id);
     this.isFetched = true;
-
-    console.log(this.posts);
   },
   components: {
     Video,
