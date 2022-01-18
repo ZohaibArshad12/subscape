@@ -25,7 +25,6 @@ export const actions = {
   },
 
   async register(_, { email, password, creator_id, name }) {
-    console.log(creator_id);
     const user = await Auth.signUp({
       username: email,
       password,
@@ -41,22 +40,18 @@ export const actions = {
   },
 
   async login({ commit, dispatch }, { email, password }) {
-    console.log("I tried");
     const user = await Auth.signIn(email, password);
     commit("set", user);
 
     if (
       (await dispatch("user/findOrCreateUser", user, { root: true })) != null
     ) {
-      console.log(user);
-      console.log("good");
       return user;
     } else {
       await Auth.signOut();
       commit("set", null);
     }
 
-    console.log(user);
     return user;
   },
 

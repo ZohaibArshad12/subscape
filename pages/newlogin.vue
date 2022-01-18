@@ -78,7 +78,6 @@ export default {
   methods: {
     async login() {
       try {
-        console.log("Tried");
         await this.$store.dispatch("auth/login", this.form);
         this.$router.push("/");
       } catch (error) {

@@ -123,7 +123,6 @@ export default {
   methods: {
     async register() {
       try {
-        console.log(this.registerForm);
         if (this.$route.query.creator) {
           return console.log("Damn");
         }

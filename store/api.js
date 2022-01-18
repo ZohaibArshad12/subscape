@@ -36,7 +36,6 @@ export const actions = {
       }
     }
 
-    console.log(postsReturned);
     return postsReturned;
   },
 
@@ -66,7 +65,6 @@ export const actions = {
       query: "listComments",
       filter: { postId: { eq: postId } },
     });
-    console.log(comments);
 
     return comments;
   },
@@ -103,8 +101,6 @@ export const actions = {
     var postId = input.postId;
     var userId = input.userId;
     var likedPost = input.likedPost;
-    console.log("The post id is: " + postId);
-    console.log("The user id is: " + userId);
     var likedPost = dispatch("get", { key: "post", query: "getPost", postId });
 
     const updatedLikes = {
@@ -113,8 +109,6 @@ export const actions = {
       // Pairs: [...existingItem.Pairs, [newPairs.number1, newPairs.number2]]
       likes: likedPost.likes ? [...likedPost.likes, userId] : [userId],
     };
-
-    console.log("The output is: " + JSON.stringify(updatedLikes));
 
     return dispatch("mutate", {
       key: "post",
@@ -136,8 +130,6 @@ export const actions = {
       id: postId,
       likes: [...likeOut],
     };
-
-    console.log("New Likes: " + JSON.stringify(updatedLikes));
 
     return dispatch("mutate", {
       key: "post",
